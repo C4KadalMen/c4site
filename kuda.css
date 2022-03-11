@@ -3,17 +3,24 @@ h1
 text-align:center;
 background-color:#aaaaaa;
 }
-body
-{
-background-color:#eeeeee;
-}
 .pembuka
 {
 padding:10px;
 background-color:#aaaaff;
 }
-table
+.tabel
 {
-border:10px;
+border-style: solid;
 background-color:#dddddd;
+}
+table, th, td 
+{
+  width: 100%;
+  border-style: 1px solid;
+}
+button
+{
+  color: green;
+  background-color: #aaaaff;
+  border-style: 3px solid;
 }
