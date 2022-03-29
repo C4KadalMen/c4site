@@ -1,26 +1,38 @@
+body
+{
+ background-color: #aaaaff;
+}
+.isi
+{
+  background-color: #7777aa;
+  margin-left: 5px;
+  padding-left: 5px;
+  color: white;
+}
 h1
 {
 text-align:center;
-background-color:#aaaaaa;
-}
-.pembuka
-{
-padding:10px;
-background-color:#aaaaff;
-}
-.tabel
-{
-border-style: solid;
-background-color:#dddddd;
-}
-table, th, td 
-{
-  width: 100%;
-  border-style: 1px solid;
+background-color: #ccccff;
 }
 button
 {
-  color: green;
-  background-color: #aaaaff;
-  border-style: 3px solid;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.luar-grid
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.dalam-grid
+{
+  background-color: white;
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid;
 }
