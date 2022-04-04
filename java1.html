@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> C4's Javascript Skill </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="kuda.css">
+
+</head>
+<body>
+ <h1 style="text-align:center;"> 
+  Selamat datang di Pengetik Ulang milik C4_KadalMen!
+ </h1>
+
+ <h2 style="text-align:center;">
+  Output :
+ </h2>
+ <h3 id="hewwo" style="text-align:center; background-color:white;"></h3>
+
+ <p> 
+  <input type="text" id="isian">
+  <button onclick="gantiTeks()"> RUBAH </button>
+ </p>
+
+ <p style="text-align:center;">
+  <a href="index.html">
+   <button> 
+    Kembali ke Portal 
+   </button> 
+  </a>
+ </p>
+
+ <button onclick="this.innerHTML = 'NEVER GONNA GIVE YOU UP';"> Hi </button>
+ <script>
+  Hewwo = document.getElementById("hewwo"); 
+ 
+  function gantiTeks()
+  {
+   Hewwo = document.getElementById("hewwo");
+   Isi = document.getElementById("isian").value;
+   
+   Hewwo.innerHTML = Isi;
+  }
+ </script>
+</body>

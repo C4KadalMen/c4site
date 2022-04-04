@@ -1,10 +1,17 @@
+:root
+{
+ --test: #00ff00;
+ --background: #aaaaff;
+ --bgteks: #7777aa;
+}
+
 body
 {
- background-color: #aaaaff;
+ background-color: var(--background);
 }
 .isi
 {
-  background-color: #7777aa;
+  background-color: var(--bgteks);
   margin-left: 5px;
   padding-left: 5px;
   color: white;
@@ -20,18 +27,23 @@ button
   background-color: black;
   padding: 10px;
 }
+button:hover
+{
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
 
 .luar-grid
 {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-left: 
 }
 .dalam-grid
 {
   background-color: white;
   text-align: center;
-  padding-left: 1px;
-  padding-right: 1px;
   padding-top: 15px;
   padding-bottom: 15px;
   border: 1px solid;
