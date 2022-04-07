@@ -13,10 +13,10 @@
  <h2 style="text-align:center;" id="pesan">
   Mulailah menekan tombol
  </h2>
- <h3 id="hewwo" style="text-align:center; background-color:white;"></h3>
+ <h3 id="hewwo" style="text-align:center; background-color:white; font-size: 50px;"></h3>
 
  <p style="text-align: center;"> 
-  <button onclick="tambahPoin()" style="font-size: 69px;"> RUBAH </button>
+  <button onclick="tambahPoin()" style="font-size: 69px;"> KLIK </button>
  </p>
 
  <p style="text-align:center;">
@@ -27,7 +27,6 @@
   </a>
  </p>
 
- <button onclick="this.innerHTML = 'NEVER GONNA GIVE YOU UP';"> Hi </button>
  <script>
   var Isi = 0;
   
@@ -51,6 +50,9 @@
    {
     case 100:
      Pesan.innerHTML = "Wow! Rekorku terpecahkan.";
+     break;
+    case 200:
+     Pesan.innerHTML = "Serius?!";
      break;
     default:
      break;
