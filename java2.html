@@ -7,11 +7,11 @@
 </head>
 <body onload="awalan()">
  <h1 style="text-align:center;"> 
-  Selamat datang di Pengetik Ulang milik C4_KadalMen!
+  Selamat datang di Clicker milik C4_KadalMen!
  </h1>
 
- <h2 style="text-align:center;">
-  Output :
+ <h2 style="text-align:center;" id="pesan">
+  Mulailah menekan tombol
  </h2>
  <h3 id="hewwo" style="text-align:center; background-color:white;"></h3>
 
@@ -30,17 +30,30 @@
  <button onclick="this.innerHTML = 'NEVER GONNA GIVE YOU UP';"> Hi </button>
  <script>
   var Isi = 0;
+  Hewwo = document.getElementById("hewwo");
+  Pesan = document.getElementById("pesan");
   
   function awalan()
    {
-     Hewwo = document.getElementById("hewwo");
      Hewwo.innerHTML = "Mulailah Menekan";
    }
   function tambahPoin()
    {
-    Hewwo = document.getElementById("hewwo");
     Isi++;
     Hewwo.innerHTML = Isi;
+    cekSkor();
    }
+  
+  function cekSkor();
+  {
+   switch(Isi)
+   {
+    case 100:
+     Pesan.innerHTML = "Wow! Rekorku terpecahkan.";
+     break;
+    default:
+     break;
+   }
+  }
  </script>
 </body>
