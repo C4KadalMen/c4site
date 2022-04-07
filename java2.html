@@ -30,15 +30,15 @@
  <button onclick="this.innerHTML = 'NEVER GONNA GIVE YOU UP';"> Hi </button>
  <script>
   var Isi = 0;
-  Hewwo = document.getElementById("hewwo");
-  Pesan = document.getElementById("pesan");
   
   function awalan()
    {
+     Hewwo = document.getElementById("hewwo");
      Hewwo.innerHTML = "Mulailah Menekan";
    }
   function tambahPoin()
    {
+    Hewwo = document.getElementById("hewwo");
     Isi++;
     Hewwo.innerHTML = Isi;
     cekSkor();
@@ -46,6 +46,7 @@
   
   function cekSkor();
   {
+   Pesan = document.getElementById("pesan");
    switch(Isi)
    {
     case 100:
