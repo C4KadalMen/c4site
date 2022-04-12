@@ -27,6 +27,12 @@ button
   background-color: black;
   padding: 10px;
 }
+.tombol
+{
+  color: initial;
+  background-color: initial;
+  padding: initial;
+}
 button:hover
 {
   color: black;
