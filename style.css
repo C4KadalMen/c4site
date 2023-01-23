@@ -1,0 +1,52 @@
+body
+{
+	margin-left: 0.5em;
+}
+#main-ui
+{
+	background-color: #dddddd;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding-left: 0.5em;
+	padding-right: 0.25em;
+	padding-bottom: 1em;
+}
+.projects
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	border-radius: 20px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	background-color: white;
+}
+
+button
+{
+	font-size: 15px;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	border: 4px outset black;
+	border-radius: 5px;
+}
+button:hover
+{
+	font-size: 15px;
+	padding: 5px;
+	color: white;
+	background-color: black;
+	border: 4px outset blue;
+	border-radius: 5px;
+}
+button:active
+{
+	font-size: 15px;
+	padding: 5px;
+	color: white;
+	background-color: black;
+	border: 3px inset blue;
+	border-radius: 5px;
+}
