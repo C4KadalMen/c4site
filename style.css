@@ -32,10 +32,18 @@ button
 	border: 4px outset black;
 	border-radius: 5px;
 }
+button.clicker
+{
+	font-size: 15px;
+	padding: 20px;
+	color: black;
+	background-color: white;
+	border: 4px outset black;
+	border-radius: 5px;
+}
 button:hover
 {
 	font-size: 15px;
-	padding: 5px;
 	color: white;
 	background-color: black;
 	border: 4px outset blue;
@@ -44,9 +52,8 @@ button:hover
 button:active
 {
 	font-size: 15px;
-	padding: 5px;
 	color: white;
 	background-color: black;
-	border: 3px inset blue;
+	border: 4px inset blue;
 	border-radius: 5px;
 }
