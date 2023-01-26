@@ -10,10 +10,14 @@
 	<a href="index.html">BACK TO HOME</a>
 	<div id="main-ui">
 		<h1 style="text-align:center;">P001:SimpleClicker</h1>
-		<p> Score : <span id="score"></span></p>
+		<div class="P001score">
+			<span id="score"></span>
+		</div>
 		<div class="projects">
 			<button class="clicker" onclick="isPressed()">CLICK HERE</button>
+			<button class="clicker" onclick="resetScore()">RESET SCORE</button>
 		</div>
+		<p style="text-align:right;">Version 1.0</p>
 	</div>
 	<script src="p001.js"></script>
 </body>

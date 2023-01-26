@@ -5,6 +5,11 @@ score.innerHTML = point;
 function isPressed()
 {
 	point++;
-	console.log("FUCK YOU!");
+	score.innerHTML = point;
+}
+
+function resetScore()
+{
+	point = 0;
 	score.innerHTML = point;
 }
