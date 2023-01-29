@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title> C4_KadalMen's Projects </title>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a href="index.html">BACK TO HOME</a>
+	<div id="main-ui">
+		<h1 style="text-align:center;">P002:SimpleCalculator</h1>
+		<div class="calculatorProject">
+			<table id="calculatorBody">
+				<tr><p id="theOperator">[_]</p></tr>
+				<tr>
+					<p id="CalcuField">0</p>
+				</tr>
+				<!-- FIRST ROW -->
+				<tr>
+					<th><button class="CalcuButton" onclick="pressNumber(7)">7</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(8)">8</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(9)">9</button></th>
+					<th><button class="CalcuButtonSP"
+					onclick="pressEqu('*')">*</button></th>
+				</tr>
+				<!-- SECOND ROW -->
+				<tr>
+					<th><button class="CalcuButton" onclick="pressNumber(4)">4</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(5)">5</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(6)">6</button></th>
+					<th><button class="CalcuButtonSP" onclick="pressEqu('/')">/</button></th>
+				</tr>
+				<!-- THIRD ROW -->
+				<tr>
+					<th><button class="CalcuButton" onclick="pressNumber(1)">1</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(2)">2</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(3)">3</button></th>
+					<th><button class="CalcuButtonSP" onclick="pressEqu('-')">-</button></th>
+				</tr>
+				<!-- LAST ROW -->
+				<tr>
+					<th><button class="CalcuButtonC" onclick="pressC()">C</button></th>
+					<th><button class="CalcuButton" onclick="pressNumber(0)">0</button></th>
+					<th><button class="CalcuButtonSP" onclick="pressEqu('+')">+</button></th>
+					<th><button class="CalcuButtonSP" onclick="pressQ()">=</button></th>
+				</tr>
+				<!-- SAINTS ROW -->
+				<!-- END OF TABLE -->
+			</table>
+		</div>
+		<p style="text-align:right;">Version 1.0</p>
+	</div>
+	<script src="p002.js"></script>
+</body>
+</html>

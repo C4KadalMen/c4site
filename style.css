@@ -44,20 +44,19 @@ button.clicker
 }
 button:hover
 {
-	font-size: 15px;
 	color: white;
-	background-color: black;
 	border: 4px outset blue;
 	border-radius: 5px;
 }
 button:active
 {
-	font-size: 15px;
 	color: white;
 	background-color: black;
 	border: 4px inset blue;
 	border-radius: 5px;
 }
+
+/* P001:SimpleClicker */
 div.P001score
 {
 	text-align: center;
@@ -67,4 +66,72 @@ div.P001score
 	background-color: white;
 	font-size: 30px;
 	text-align: center;
+}
+
+/* Newest Update */
+div.newestUpdate
+{
+	background-color: #999999;
+	border-radius: 15%;
+	padding-left: 1em;
+	padding-bottom: 2em;
+}
+
+/* P002:SimpleCalculator */
+#calculatorBody
+{
+	margin: auto;
+}
+.calculatorProject
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	border-radius: 20px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background-color: white;
+}
+.CalcuButton
+{
+	font-size: 35px;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: black;
+	color: white;
+}
+.CalcuButtonSP
+{
+	font-size: 35px;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: yellow;
+}
+.CalcuButtonC
+{
+	font-size: 35px;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: red;
+}
+#CalcuField
+{
+	font-size: 35px;
+	background-color: black;
+	color: white;
+	margin-top: 0.1em;
+	margin-bottom: 0px;
+	margin-left: 0.5em;
+}
+#CalcuProcessor
+{
+	font-size: 35px;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
