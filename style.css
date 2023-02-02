@@ -56,6 +56,30 @@ button:active
 	border-radius: 5px;
 }
 
+/* FLOATING BUTTON */
+.floating-button
+{
+	background-color: #00dd00;
+	border-radius: 50%;
+	text-align: center;
+	color: blue;
+	width: 75px;
+	height: 35px;
+	padding-top: 17.5px;
+	padding-bottom: 18px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+.floating-button:hover
+{
+	background-color: gray;
+}
+
 /* P001:SimpleClicker */
 div.P001score
 {
@@ -78,9 +102,20 @@ div.newestUpdate
 }
 
 /* P002:SimpleCalculator */
+#CalcuField
+{
+	width: 45%;
+}
+@media (max-width: 600px)
+{
+	#CalcuField
+	{
+		width: 90%;
+	}
+}
 #calculatorBody
 {
-	margin: auto;
+	margin-left: 0.75em;
 }
 .calculatorProject
 {
